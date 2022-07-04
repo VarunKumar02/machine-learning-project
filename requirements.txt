@@ -4,5 +4,6 @@ gunicorn
 sklearn
 pandas
 PyYAML
-os
+evidently
+dill
 -e .

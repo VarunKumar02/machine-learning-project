@@ -2,7 +2,6 @@ from flask import Flask
 import sys
 from housing.logger import logging
 from housing.exception import HousingException
-
 app=Flask(__name__)
 
 
@@ -18,4 +17,4 @@ def index():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run()
